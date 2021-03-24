@@ -9,7 +9,7 @@ If the argument passed in is 0 or less, then the method should return an empty o
 
    {error: "You are rich, my friend! We don't have so much coins for exchange"}
 For example:
-  makeExchange(0)  --> {}
+  makeExchange(0)  --> {}</br>
   makeExchange(1)  --> {"P":1}
   makeExchange(43) --> {"Q":1,"D":1,"N":1,"P":3}
   makeExchange(91) --> {"H":1,"Q":1,"D":1,"N":1,"P":1}
